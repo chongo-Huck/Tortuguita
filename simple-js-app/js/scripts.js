@@ -5,10 +5,10 @@ let pokemonList= [
 
 ];
 
-for (let i=0; i<PokemonList.length; i++) {
-    document.write(`${PokemonList[i].name} (height: ${PokemonList[i].height})`);
+for (let i=0; i<pokemonList.length; i++) {
+    document.write(`${pokemonList[i].name} (height: ${pokemonList[i].height})`);
 
-    if (PokemonList[i].height >55 ){
+    if (pokemonList[i].height >55 ){
     document.write (" - Wow, that's a big one!");
     }
 
